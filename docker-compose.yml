@@ -1,9 +1,9 @@
 idea:
     build: .
     labels:
-        org.kurron.description: "JetBrains WebStorm JavaScript IDE"
-        org.kurron.version: "11.0.1"
-    container_name: "webstorm"
+        org.kurron.description: "JetBrains RubyMine Ruby IDE"
+        org.kurron.version: "8.0.1"
+    container_name: "rubymine"
     net: "host"
     volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix
