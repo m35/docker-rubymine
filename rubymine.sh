@@ -1,6 +1,7 @@
 #!/bin/bash
 
 CMD="docker run \
+       --rm \
        --name rubymine \
        --net "host" \
        --env DISPLAY=unix$DISPLAY \
