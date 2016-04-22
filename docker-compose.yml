@@ -1,8 +1,5 @@
-idea:
+ruby-mine:
     build: .
-    labels:
-        org.kurron.description: "JetBrains RubyMine Ruby IDE"
-        org.kurron.version: "8.0.1"
     container_name: "rubymine"
     net: "host"
     volumes:
